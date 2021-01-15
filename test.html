@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <label for="tambahBuah">masukan jumlah matrix : </label>
+    <input type="text" id="masukan">
+    <button id="btnTambahkan" onclick="cetakField(parseInt(document.getElementById('masukan').value *(document.getElementById('masukan').value)))">buat</button>
+    
+    <p>masukan angka matrix 1</p>
+    <ul>
+        <div id="matrix1">
+            <tr>
+                <td></td>
+            </tr>
+
+        </div>
+    </ul>
+    
+    <p>masukan angka matrix 2</p>
+    <ul>
+        <div id="matrix2">
+
+        </div>
+    </ul>
+
+    <button id="btnTambahkan" onclick="tambahan(document.getElementById('matrix1.fieldID').value , document.getElementById('matrix2.fieldID').value)">Tambahkan</button>
+
+    <p>hasil tambah</p>
+    <ul>
+        <div id="hasil">
+
+        </div>
+    </ul>
+
+<script src="test.js"></script>
+</body>
+</html>
